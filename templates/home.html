@@ -15,7 +15,7 @@
             <div class="contenidoIzq">
                 <div class="columnIzq">
                     <label>Selecione sistema: </label>   
-                    <select>  
+                    <select class="element_izq">  
                          <option>Sistema Uno</option>
                          <option>Sistema Dos</option>
                          <option>Sistema Tres</option>
@@ -25,7 +25,7 @@
         </div>
         <div class="contenedorContenido Izq">
             <div class="contenidoIzq">
-                <div class="columnIzq"><button class="boton" id='buttonConnect' type='button' onclick="MQTTconnect();"><h4 id="conectar">Conectar a EMQX</h4></button></div>
+                <div class="columnIzq"><button class="element_izq" id='buttonConnect' type='button' onclick="MQTTconnect();"><h4 id="conectar">Conectar a EMQX</h4></button></div>
             </div>
         </div>
         <div class="contenedorContenido Izq">
@@ -71,8 +71,8 @@
                       <ellipse transform="rotate(-47.7626 249.18 168.124)" id="svg_20" ry="44.402987" rx="75.675959" cy="168.124194" cx="249.179609" stroke-linecap="round" stroke-width="17.5" fill="url(#svg_14)"/>
                      </g>
                     </svg>
-                    <button class="boton" id='buttonOff' type='button' onclick="onMessageSend('off');"><h2>Apagar</h2></button>
-                    <button class="boton" id='buttonOn' type='button' onClick="onMessageSend('on');"><h2>Encender</h2></button>
+                    <button class="boton" id='buttonOff' type='button' onclick="onMessageSend('off');"><h3>Apagar</h3></button>
+                    <button class="boton" id='buttonOn' type='button' onClick="onMessageSend('on');"><h3>Encender</h3></button>
                 </div>
             </div>
         </div>
